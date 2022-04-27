@@ -1,0 +1,80 @@
+.header-section {
+    padding: 20px 0 19px 0;
+    background-color: #000000;
+}
+
+.Logo {  
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.logo-text{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+
+.logo-text::after{
+
+    content: "IT";
+    position:absolute;
+    /* top: 0;
+    left: 100%; */
+    display: inline-block;
+    color: #EC7979;   
+    
+    
+    }
+
+   
+    .Nav{
+        color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+
+    }
+
+    .Nav:hover{
+        /* color: #EC7979; */
+        border-bottom: 3px solid #EC7979;
+    }
+
+
+
+
+
+.header {
+    display: flex;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.navigation {
+    
+    margin-right: 48px;
+    
+}
+.navigation:last-child{
+    margin: 0;
+}
+
+
+.burger {
+    display: none;
+    transition-duration: 1.2s;
+}
+
+.fa-buromobelexperte{
+    font-size: 50px;
+    color: #EC7979;
+}
+.burger:hover {
+    transform:  rotate(45deg);
+    transition-duration: 1.2s;
+   
+
+
+}

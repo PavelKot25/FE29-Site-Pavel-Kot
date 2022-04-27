@@ -1,0 +1,115 @@
+.footer-section {
+    padding: 30px 0 15px 0;
+    background-color: black;
+}
+
+.social-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    transition-duration: 1.2s;
+}
+.icons-footer {
+    margin-right: 20px;
+    
+    
+}
+.icons-footer:last-child{
+    margin: 0;
+}
+
+.icons-footer i{
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 23px;
+    font-weight: 100;
+}
+
+
+
+
+.icons-footer {
+    transition-duration: 1.2s;
+}
+
+
+.footer-twitter:hover{
+    color: aqua;
+   transition-duration:  1.2s;
+    
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    
+}
+
+.footer-facebook:hover {
+    color: aqua;
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    transition-duration: 1.2s;
+}
+
+.footer-instagram:hover {
+    color: aqua;
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    transition-duration: 1.2s;
+}
+
+.footer-telegram:hover {
+    color: aqua;
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    transition-duration: 1.2s;
+}
+
+.footer-google-play:hover {
+    color: aqua;
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    transition-duration: 1.2s;
+}
+
+.footer-pinterest:hover {
+    color: aqua;
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    transition-duration: 1.2s;
+
+}
+
+.footer-vk:hover {
+    color: aqua;
+    transform: translate(0px, -10px) scale(120%) rotate(360deg);
+    transition-duration: 1.2s;
+}
+
+.meta {
+    text-align: center;
+    
+}
+.meta p {
+
+color:  rgba(255, 255, 255, 0.5);
+font-weight: 400;
+font-size: 12px;
+
+}
+
+
+
+.footer-twitter {
+    transition-duration: 1.2s;  
+}
+
+.footer-facebook {transition-duration: 1.2s;
+}
+
+.footer-instagram {transition-duration: 1.2s;
+}
+
+.footer-telegram {transition-duration: 1.2s;
+}
+
+.footer-google-play {transition-duration: 1.2s;
+}
+
+.footer-pinterest {transition-duration: 1.2s;
+}
+
+.footer-vk {transition-duration: 1.2s;
+}

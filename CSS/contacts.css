@@ -1,0 +1,188 @@
+.contacts-section {
+    padding: 80px 0 40px;
+}
+
+.desc-contact{
+
+    margin: 0 auto 62px;
+    
+    text-align: center;
+
+}
+.desc-contact p{
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+.form-contact {
+    width: 100%;
+    display: block;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.data-form{
+display: flex;
+    margin-right: 15px;
+width: 40%;
+flex-wrap: wrap;
+   flex-flow: column;
+
+
+}
+.label-contact{
+    margin-bottom: 32px;
+}
+.label-contact p{
+    font-size: 14px;
+    font-weight: 400;
+    color:  #BDBDBD;
+    
+}
+
+
+.contact-textarea P{
+
+    font-size: 14px;
+    font-weight: 400;
+    color:  #BDBDBD;
+    margin-bottom: 5px;
+
+}
+.Textarea{
+    height: 160px;
+    display: block;
+resize: none;
+border: 0;
+border-bottom: 1px solid #BDBDBD;
+width: 100%;
+outline: none;
+color: #BDBDBD;
+padding-top: 15px 0;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+font-weight: 400;
+
+}
+
+.contact-massage {
+   width: 40%;
+    display: flex;
+   flex-wrap: wrap;
+   flex-flow: column;
+}
+.contact-field{
+    resize: none;
+    border: 0;
+    border-bottom: 1px solid #86878B;
+    width: 478px;
+    font-family: 'Raleway', sans-serif;
+font-size: 15px;
+font-weight: 400;
+}
+
+.contact-input{
+
+width: 100%;
+margin-bottom: 32px;
+display: block;
+}
+.contact-input:last-child{
+    margin: 0;
+}
+
+.contact-input input{
+
+
+    resize: none;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    outline: none;
+    color: #BDBDBD;
+    padding: 5px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-buttom {
+    display: block;
+background-color: #EC7979;
+border: 0;
+    text-align: center;
+    width: 166px;
+    height: 42px;
+    transition-duration: 1s;
+    margin: auto;
+
+    
+
+
+}
+.contact-buttom:hover{
+    transform: scale(110%);
+    border-radius: 7px;
+    box-shadow: 0 14px 28px #ec7979a9, 0 10px 10px #ec7979a9, 0px -1px 10px 1px #ec7979a9;
+    transition-duration: 1s;
+}
+
+.contact-buttom p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
